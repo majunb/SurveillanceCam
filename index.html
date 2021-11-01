@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>I AM WATCHING YOU</title>
+		<link rel="stylesheet" type="text/css" href="./style.css" />
+		<script src="./script.js"></script>
+	</head>
+
+
+	<body>
+	
+
+	<style>
+		div.a{
+			text-align:center;
+		}
+		body{
+			background-color:#bcbcbc;
+		}
+		img{
+			width:50%;
+		}
+	</style>
+
+
+		<div class="a">
+			<h1 style="font-size: 300%";>MARK THE SURVEILLANCE CAMERAS</h1>
+			<img src="Smile.png" />
+			<h4 style="font-size: 200%">HELP EACH OTHER OUT</h4>
+			<p><font size="6"><em>This website is design for MSU students to get information about where they will face cameras. By sharing cameras infomation, we will update marks on the map to help students identify where you will expect surveillance cameras. Create transparency for protection and our safety</em></font></p>
+			<p><font size="5"><strong>Our goal is to create transparency to the surveillance protection for our safety</strong></font></p>
+
+			<br />
+			<br />
+
+
+		</div>
+
+			<div id="map"></div>
+
+			<script 
+				src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByN6kbiqIUnPvaDdHnd9_lopBa24Lff_M&callback=initMap&libraries=&v=weekly"
+				asynic
+			></script>
+
+			
+		<div class="a">
+			<p><font size="4"><strong>Report the cameras you saw on streets! Share the locations with each other!</strong></font></p>
+
+			<form action="contactform.php" method="post">
+				<input type="text" name="name" placeholder="Discovered By...">
+				<br />
+				<br />
+				<input type="text" name="mail" placeholder="Your Email">
+				<br />
+				<br />
+				<input type="text" name="CamerasAmounts" placeholder="How many cameras?">
+				<br />
+				<br />
+				<textarea name="message" placeholder="Details about where are the cameras located...(Which Streets?)"></textarea>
+				<br />
+				<br />
+				<button type="submit" name="submit">SEND </button>
+			</form>
+			<p><font size="2">Notes: updates usually take 1-2 days </font></p>
+			<p><font size="2">Your personal infomation(Name or Email) above will not be share or use. They will only be use for contacting you if more information needed.</font></p>
+
+		</div>
+
+
+			
+
+
+
+	</body>
+</html>
